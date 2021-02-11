@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 time = np.arange( 0, 2*np.pi, 0.01 )
 sine = np.sin( time )
 cosine = np.cos( time )
+tan = np.tan( time )
 
 
 plt.plot( time, sine, label= "Sine" )
