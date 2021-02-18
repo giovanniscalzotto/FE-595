@@ -17,7 +17,7 @@ plt.xlabel( 'Frequncy' )
 plt.ylabel( 'Amplitude' )
 
 def tan_graph():
-    x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # start,stop,step
+    x = np.linspace(0, np.pi, 1000)  # start,stop,step
     y = np.tan(x)
     # test
     plt.plot(x, y)
